@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Transmission Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- js app -->
+<h2>First JavaScript Application</h2>
+<div id="message">Message will appear here</div>
+
+<h2>Sum Function Test</h2>
+<input type="text" id="n" placeholder="Enter a number">
+<button onclick="inputSum()">Calculate Sum</button>
+<div id="sumResult">Sum Result: </div>
+
+<!-- HTML graphic interface -->
+<h2>Counter Example</h2>
+<div id="counter">0</div>
+<button id="inc">+</button>
+
+<!-- 2. Counter with decrement -->
+<h2>Counter with Decrement</h2>
+<div id="counter-limited">0</div>
+<button id="inc-limited">+</button>
+<button id="dec-limited">-</button>
+
+<!-- 3. sum fct-->
+<h2>Validated Sum Function</h2>
+<input type="text" id="validated-sum" placeholder="Enter a number">
+<button onclick="calculateValidatedSum()">Calculate</button>
+<div id="validatedSumResult">Result: </div>
+
+<!-- 4. Fibonacci-->
+<h2>Fibonacci Generator</h2>
+<input type="text" id="fibInput" placeholder="Enter a number (1-10)">
+<button onclick="generateFibonacci()">Generate</button>
+<div id="fibResult">Result: </div>
+
+<!-- 5. simple calculator -->
+<h2>Simple Calculator</h2>
+<input type="text" id="firstNumber" placeholder="First Number">
+<input type="text" id="secondNumber" placeholder="Second Number">
+<button id="add">+</button>
+<button id="sub">-</button>
+<button id="mul">*</button>
+<button id="div">/</button>
+<button id="mod">%</button>
+<div id="calcResult">Result: </div>
+
+<script src="app.js"></script>
+<script src="appTest.js"></script>
+</body>
+</html>
